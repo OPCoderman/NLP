@@ -1,0 +1,16 @@
+Feedforward Neural Net Language Model has input, projection, hidden, output and is high in complexity.
+
+Recurrent Neural Net Language Mode has only input, hidden and output and they can represent more complex patterns more efficiently than shallow neural nets.
+
+Continuous Bag-of-Words (CBOW) predicts the current word based on surrounding context words, using a shared projection layer where the vectors of the context words are averaged. It ignores the order of words (bag-of-words assumption) and uses words from both before and after the target word. The model is efficient and works well with small context windows.
+
+Continuous Skip-gram does the opposite: it predicts surrounding words given the current word. It uses the current word as input to predict words within a certain range around it. Closer words are given more importance by being sampled more often. This model is better at learning representations for rare words and benefits from larger context windows, though this increases computational cost.
+using vectors to calculate the word that is similar to another or holds a certain relationship with it can be done by using two words that carry the same relationship. ex: v(smallest) = v(biggest) - v(big) + v(small) and this can be used to extrapolate the relationship between words with subtler connections.
+
+Word vectors with such semantic relationships could be used to improve many existing NLP applications, such
+as machine translation, information retrieval and question answering systems, and may enable other
+future applications yet to be invented.
+
+
+
+
