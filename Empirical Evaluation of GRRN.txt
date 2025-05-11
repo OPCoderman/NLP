@@ -1,0 +1,5 @@
+The paper writers have taken three models a traditional tanh model, a GRU model and a LSTM model and compared them using many music datasets and two datasets provided by Ubisoft.
+
+they were trained with RMSProp and they showed very similar results on all the music datasets but with varying degrees of success on each one but on the Ubisoft datasets the gated models preformed much better than the traditional one.
+
+the results of the paper were inconclusive as to which model between LSTM and GRU is better as the author said it would depend most on the dataset itself and how each model handled it. although GRU is much more efficient and faster but LSTM can work better with longer sequences.
