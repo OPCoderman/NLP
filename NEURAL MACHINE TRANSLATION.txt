@@ -1,0 +1,7 @@
+NEURAL MACHINE TRANSLATION
+. The new architecture
+consists of a bidirectional RNN as an encoder (Sec. 3.2) and a decoder that emulates searching
+through a source sentence during decoding a translation.
+. RNNsearch is better at long sentences as it doesn't need to encode sentences into fixed-length vectors.
+
+the RNNencdec was significantly outperformed by RNNsearch.
