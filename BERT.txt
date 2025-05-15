@@ -1,0 +1,7 @@
+BERT:
+Pre-training of Deep Bidirectional Transformers for
+Language Understanding
+
+BERT is a new way of understanding language context. Unlike earlier models that read text either from left to right or right to left, BERT is designed to read text in both directions at the same time. This bidirectional approach allows it to better capture the meaning of words based on their full context, which significantly improves its understanding of language
+
+The results of BERT’s design were impressive. It achieved state-of-the-art performance across a wide range of NLP benchmarks, significantly outperforming previous models. Its success showed that pre-training a deep, bidirectional language model on a large corpus and then fine-tuning it to specific tasks is a powerful and general approach.
